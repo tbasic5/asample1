@@ -53,4 +53,11 @@ public class HomeController {
 		
 		return "bsee2";
 	}
+	@RequestMapping(value = "/bsee3", method = RequestMethod.GET)
+	public String bsee3(Locale locale, Model model) {
+		
+		
+		return "bsee3";
+	}
+	
 }
