@@ -41,5 +41,10 @@ public class HomeController {
 		
 		return "view1";
 	}
-	
+	@RequestMapping(value = "/see1", method = RequestMethod.GET)
+	public String see1(Locale locale, Model model) {
+		
+		
+		return "see1";
+	}
 }
