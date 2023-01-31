@@ -26,6 +26,10 @@ public class BConroller1 {
 	}
 	
 	
+	@RequestMapping("/hi5")
+	public String hi5() {
+		return "hi/hi5";
+	}
 	@RequestMapping("/hi1")
 	public String hi1() {
 		return "hi/hi1";
