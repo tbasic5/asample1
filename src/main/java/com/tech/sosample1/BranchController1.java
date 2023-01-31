@@ -19,4 +19,10 @@ public class BranchController1 {
 	public String brh3() {
 		return "brhf1/brh3";
 	}
+	@RequestMapping("/brh5")
+	public String brh5() {
+		return "brhf1/brh5";
+	}
+	
+	
 }
