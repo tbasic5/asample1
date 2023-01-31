@@ -19,6 +19,13 @@ public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
+	@RequestMapping(value = "/hi", method = RequestMethod.GET)
+	public String hi(Locale locale, Model model) {
+		
+		
+		return "hi";
+	}
+	
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
