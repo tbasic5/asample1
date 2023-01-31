@@ -17,4 +17,12 @@ public class BranchController1 {
 	}
 	
 	
+	@RequestMapping("/brh2")
+	public String brh2() {
+		return "brhf1/brh2";
+	}
+	@RequestMapping("/brh3")
+	public String brh3() {
+		return "brhf1/brh3";
+	}
 }
