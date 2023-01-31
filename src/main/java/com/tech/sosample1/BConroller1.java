@@ -7,6 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class BConroller1 {
 
 
+	@RequestMapping("/hi3")
+	public String hi3() {
+		return "hi/hi3";
+	}
+	
+	
+	
 	@RequestMapping("/hi2")
 	public String hi2() {
 		return "hi/hi2";
