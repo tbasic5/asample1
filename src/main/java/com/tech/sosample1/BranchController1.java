@@ -6,6 +6,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class BranchController1 {
 
+
+	@RequestMapping("/brh6")
+	public String brh6() {
+		return "brhf1/brh6";
+	}
+	
+	
 	@RequestMapping("/brh1")
 	public String brh1() {
 		return "brhf1/brh1";
