@@ -12,7 +12,6 @@ public class BConroller1 {
 		return "hi/hi4";
 	}
 
-
 	@RequestMapping("/hi3")
 	public String hi3() {
 		return "hi/hi3";
